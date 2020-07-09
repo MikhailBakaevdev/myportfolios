@@ -1,10 +1,10 @@
 import React from 'react';
-import style from './cont.css';
+import './cont.css';
 
 
 
 function Container (props) {
-    return  <div className={style.elem}>
+    return  <div className="elem">
             {props.text}
             </div>
 }

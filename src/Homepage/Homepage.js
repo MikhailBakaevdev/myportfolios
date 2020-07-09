@@ -4,12 +4,17 @@ import Info from './componentsHome/info/Info';
 import './componentsHome/main.css';
 
 
+const textHomePage = 'Hi there,it`s me Mike and i am beginning ' +
+'Front-end Developer.You`re welcome to my portfolio Single Page Application. '+
+'Take your time and be optimist!';
+
+
 
 class Homepage extends Component {
     render() {
       return <div className="main">
                 <Image/>
-                <Info className="mainText" text="jwofjwomfrejimreijhnge"/>
+                <Info className="mainText" text={textHomePage}/>
                 
               </div>
     }
