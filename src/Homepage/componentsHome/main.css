@@ -1,4 +1,11 @@
 .main {
-    width: 1300px;
-    height: 500px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.mainText {
+        text-align: center;
 }

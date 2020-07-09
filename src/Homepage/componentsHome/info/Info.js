@@ -1,10 +1,10 @@
 import React  from 'react';
-import styles from './info.css';
+import './info.css';
 
 
 
 function Info (props) {
-    return <div className={styles.mainText}>
+    return <div className="mainText">
             {props.text}
             </div>
 }

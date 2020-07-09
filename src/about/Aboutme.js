@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import Container  from './componentsAbout/Infocontainer';
-import styles from './about.css';
+import  './about.css';
 
 
 
 class Aboutme extends Component {
     render () {
-        return   <span className={styles.about}>
+        return   <div className="about">
                     <Container text="hello"/>
                     <Container text="thanks"/>
-                 </span>
+                 </div>
     }
 }
 

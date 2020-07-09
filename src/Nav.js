@@ -1,17 +1,25 @@
 import React from 'react';
-import tabIcon from '../src/images/tabIcon.svg';
-import style from './navbar.css';
+import './navbar.css';
+import { Link } from 'react-router-dom';
 
 
 function Nav () {
     return (
             <nav>
-                <img src={tabIcon} className={style.iconLogo}/>
+                <h1>MB</h1>
                 <ul>
-                    <li>Home page</li>
-                    <li>About</li>
-                    <li>Works</li>
-                    <li>Contact</li>
+                    <Link style={{textDecoration: 'none'}} to="/">
+                        <li>Home page</li>
+                    </Link>
+                    <Link style={{textDecoration: 'none'}} to="/about">
+                        <li>About</li>
+                    </Link>
+                    <Link style={{textDecoration: 'none'}} to="/works">
+                        <li>Works</li>
+                    </Link>
+                    <Link style={{textDecoration: 'none'}} to="/contact">
+                        <li>Contact</li>
+                    </Link>    
                 </ul>
             </nav>
     );
