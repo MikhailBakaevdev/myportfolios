@@ -7,7 +7,8 @@ const someInfo = 'Some info about me';
 
 const educationAndPersonalinfo = 'Tell us about your age,hobby,efucation.-OK. ' +
 'I am 22,have a medium Technical degree - radioengineer.Hmm...hobby'  + 
-'I like sport(a bit),watch movies,eating..who is don`t like eating?!' + 'I started self-learn about 1+ year ago and now my goal for this month - find a job. ' +
+'I like sport(a bit),watch movies,eating..who is don`t like eating?!' + 
+'I started self-learn about 1+ year ago and now my goal for this month - find a job. ' +
 'For this year i am read a lot of literature about IT world and technologies. ' +
 'Graduated two courses by DataArt and Digital Ligue' ;
 

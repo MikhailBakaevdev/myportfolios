@@ -17,13 +17,16 @@ li {
 }
 
 
-body {
+html, body {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     background: linear-gradient(to top left, rgb(24, 28, 29), rgb(221, 218, 219));
-    height: 700px;
+    height: 100%;
+    width: 100%;
     background-repeat: no-repeat;
 }
+
 
 ul {
     display: flex;
@@ -34,6 +37,4 @@ ul {
 
 .appComponents {
     display: flex;
-    flex-direction: column;
-    align-items: center;
 }

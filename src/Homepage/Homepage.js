@@ -4,8 +4,8 @@ import Info from './componentsHome/info/Info';
 import './componentsHome/main.css';
 
 
-const textHomePage = 'Hi there,it`s me Mike and i am beginning ' +
-'Front-end Developer.You`re welcome to my portfolio Single Page Application. '+
+const textHomePage = 'Hi there,it`s me Mike and i am ' +
+'Front-end Developer.You`re welcome to my website-Single Page Application. '+
 'Take your time and be optimist!';
 
 
